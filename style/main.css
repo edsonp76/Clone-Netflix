@@ -19,7 +19,7 @@ header .container{
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-items: center;
+    justify-content: space-between;
         
 }
 
@@ -42,8 +42,8 @@ header nav a:hover{
 
 /*filme principal*/
 .filme-principal{
-    font-size: 20px;
-    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/Clone-Netflix/img/vingadores.jpg');
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/vingadores.jpg');
 
     height: 400px;
     background-size:cover;
@@ -54,9 +54,9 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
+.filme-principal .descricao {
     margin-top: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 .filme-principal .titulo{
@@ -109,7 +109,7 @@ header nav a:hover{
 }
 
 .carrosel-filmes{
-    margin-top:  10px;
+    margin-top: 5px;
 }
 
 .carrosel-desenhos{
